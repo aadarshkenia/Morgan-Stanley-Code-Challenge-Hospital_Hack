@@ -1,0 +1,84 @@
+body {
+	background-color: #20B2AA;
+	background-size: 1100px 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 30px;
+	font-family: Tahoma;
+	text-align: center;
+	font-color: black;
+	color: black;
+	font-variant: small-caps;
+	border-width: 5px;
+	border-radius: 8px;
+	background-attachment: fixed;
+
+}
+
+
+#Menu {
+	width: 370px;
+	height: 50px;
+	background-color: #20B2AA;
+	font-family:Impact;
+	font-size: 25px;
+	text-shadow: none;
+	text-align: center;
+	border-radius: 8px;
+	border: 2px solid black;
+	color: #20B2AA;
+}
+
+#Menu ul {
+	height: auto;
+	padding: 10px 0px;
+	margin: 0px;
+}
+
+#Menu li {
+	display: inline;
+	padding: 15px;
+}
+
+#Menu a {
+	text-decoration: none;
+}
+
+input[type="search"] {
+	width: 300px;
+	height: 30px;
+}
+
+
+
+#Post {
+	width: 640px;
+	height: 120px;
+	background-color: #20B2AA;
+	font-family:Impact;
+	font-size: 25px;
+	text-shadow: none;
+	text-align: center;
+	color: #20B2AA;
+}
+
+#Feed {
+	width: 750px;
+	height: 1000px;
+	background-color: #90EE90;
+	font-family:Impact;
+	font-size: 40px;
+	text-shadow: none;
+	text-align: left;
+	border-radius: 5px;
+	border: 5px solid #20B2AA;
+	color: #20B2AA;
+	padding-left: 20px;
+}
+
+.center {
+	margin: auto;
+    width: 60%;
+    border:3px solid #8AC007;
+    padding: 10px;
+}

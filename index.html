@@ -1,0 +1,81 @@
+<!DOCTYPE>
+<meta charset = UTF = "8">
+
+<html>
+
+<head>
+	<title>
+		My Website
+	</title>
+
+	<link rel = "stylesheet" type = "text/css" href = "CSS/Stylesheet.css">
+
+	<style>
+
+		h1, h2, h3, {
+			font-variant: small-caps;
+		}
+
+
+
+	</style>
+
+
+
+</head>
+
+	<body>
+
+		<div id = "Menu">
+
+			<ul>
+
+				<li><a href = "index.html">Home</a></li>
+
+				<li><a href = "signup.html">Sign Up</a></li>
+
+				<li><a href = "http://localhost/Backend/display_articles.php">Articles</a></li>
+					
+				<li><a href = "aboutus.html">About Us</a></li>
+
+			</ul>
+
+		</div>
+
+
+		<div id = "Welcome" class = "center">
+
+		<h2>Welcome!</h2>
+
+			<div id = "Login" class = "center">
+
+				<h2>Login</h2>
+
+				<form action = "http://localhost/Backend/login.php" method="post">
+
+					<ul id = "usernamepassword">
+
+						<li>Username &nbsp &nbsp &nbsp<Input type = "text" name = "username" ></li>
+						<br>
+						<li>Password &nbsp &nbsp &nbsp<Input type = "text" name = "password" id = "password"></li> <br>
+						<li><input type="submit" class = "login-submit" value="Submit" style = "padding: 5px; width: 100px; auto;" /></li>
+					<ul>
+
+				</form>
+
+				<hr>
+
+				<div id = "member" class = "center">
+
+					<a href = "signup.html"><h3>Not a Member? Sign Up and Create a Profile!</h3></a>
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

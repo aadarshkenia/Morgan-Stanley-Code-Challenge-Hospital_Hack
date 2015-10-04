@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<meta charset = UTF = "8">
+<html>
+	<head>
+		<title>
+			Login Page
+		</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>	
+	<link rel="stylesheet" type="text/css" href="CSS/SignUpStylesheet.css">
+
+
+	</head>
+
+
+	<body>
+
+		<div id = "Menu">
+
+			<ul>
+
+				<li><a href = "index.html">Home</a></li>
+
+				<li><a href = "SignUp.html">Sign Up</a></li>
+
+			</ul>
+
+		</div>
+
+		<h1>Sign Up</h1>
+
+		<div id = "SignUp" class = "center">
+
+			<form method = "post">
+
+				Email (This will be your username)
+				<br>
+				<label><input type="text" name="email" size="30" maxlength="30"/></label>
+
+				<br>
+
+				Password
+				<br>
+				<label><input type="text" name="password" size="30" maxlength="30"/></label>
+
+				<hr>
+				<br>
+
+				First Name
+				<br>
+				<label><input type="text" name="firstname" size="20" maxlength="20"/></label>
+
+				<br>
+				<br>
+
+				Last Name
+				<br>
+				<label><input type="text" name="lastname" size="20" maxlength="20"/></label>
+
+
+				<hr>
+
+				Gender
+				<br>
+				<input type="radio" name="gender" value="male"/>Male
+				<input type="radio" name="gender" value="female"/>Female
+				
+				<hr>
+
+				Age
+				<br>
+				<input type = "number" name = "age"/>
+				
+				<hr>
+				<br>
+				
+				What Hospital do you attend?
+				<br>
+				<input type = "text" name = "hospital"/>
+				
+				<hr>
+				
+				<br>
+				What Illness(es) Do You Suffer From?
+				<br>
+				<div id = "divName">
+					<input type = "text" name = "Illness[]">
+				</div>
+					<input type = "button" value = "Add Input" onClick = "addInput('divName');">
+
+				<hr>
+
+
+
+				Tell Others About Yourslef
+				<br>
+				<textarea name = "about" placeholder = "Interests, Hobbies, or Anything That You Feel And Want To Share about your Illness or Personal Experiences">
+				</textarea>
+				<hr>
+
+
+
+
+				<input type="submit" value="Submit"/>
+
+				<input type="reset" value="Clear"/>
+			<hr />
+
+
+
+
+			</form>
+		</div>
+
+		
+
+	</body>
+
+	<script type = "text/javascript">
+
+	function addInput(divName){
+		var newdiv = document.createElement("div");
+		newdiv.innerHTML = " <input type ='text' name='addInputs[]'> ";
+		document.getElementById('divName').appendChild(newdiv);
+	}
+
+	</script>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<meta charset = UTF = "8">
+
+<html>
+
+<head>
+	<title>
+		My Website
+	</title>
+
+	<link rel = "stylesheet" type = "text/css" href = "CSS/NewsFeedStylesheet.css">
+
+	<style>
+
+		h1, h2, h3, {
+			font-variant: small-caps;
+		}
+
+	</style>
+
+
+
+</head>
+
+	<body>
+
+		<div id = "Menu">
+
+			<ul>
+
+				<li><a href = "http://localhost/Backend/profile.php">My Profile</a></li>	
+
+				<li><a href = "http://localhost/Backend/signout.php"> Sign Out</a></lu>
+
+			</ul>
+
+		</div>
+
+		<div id = "Search" align = "center">
+
+			<form action = "http://localhost/Backend/search.php" method="post">
+
+				<h6>Search (Friends or People who Share same Experiences)</h6>
+				<input type = "search">
+				<input type="submit" value="Search"/>
+			</form>
+
+		</div>
+
+		<h1>Share</h1>
+
+		<div id = "Post" class = "center">
+		<form action = "http://localhost/Backend/add_article.php" method="post">
+			<textarea name= "content" rows="7" cols="75" placeholder="Share how you feel, an experience or anything you want to tell the world!	" style = "resize: none";></textarea>	
+			<input type="submit" value="Share"/>
+		</form>	
+		</div>	
+	</body>
+
+</html>
